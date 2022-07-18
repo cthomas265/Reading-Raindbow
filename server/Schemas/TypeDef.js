@@ -43,5 +43,6 @@ const typedefs = gql `
     }
 
 
-
 `
+
+module.exports = typedefs
