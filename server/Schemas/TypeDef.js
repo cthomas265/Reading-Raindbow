@@ -1,6 +1,6 @@
 const { gql } = require ('apollo-server-express')
 
-const typedefs = gql `
+const typeDefs = gql `
     type Book {
         bookId: ID
         authors: [String]
@@ -45,4 +45,4 @@ const typedefs = gql `
 
 `
 
-module.exports = typedefs
+module.exports = typeDefs
